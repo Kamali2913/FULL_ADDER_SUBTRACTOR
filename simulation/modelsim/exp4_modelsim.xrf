@@ -1,0 +1,17 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/acer/OneDrive/Documents/beee/digital4/exp4.v
+source_file = 1, C:/Users/acer/OneDrive/Documents/beee/digital4/Waveform.vwf
+source_file = 1, C:/Users/acer/OneDrive/Documents/beee/digital4/db/exp4.cbx.xml
+design_name = exp4
+instance = comp, \Sum~output , Sum~output, exp4, 1
+instance = comp, \Carry~output , Carry~output, exp4, 1
+instance = comp, \Diff~output , Diff~output, exp4, 1
+instance = comp, \Borrow~output , Borrow~output, exp4, 1
+instance = comp, \Cin~input , Cin~input, exp4, 1
+instance = comp, \A~input , A~input, exp4, 1
+instance = comp, \B~input , B~input, exp4, 1
+instance = comp, \Sum~0 , Sum~0, exp4, 1
+instance = comp, \Carry~0 , Carry~0, exp4, 1
+instance = comp, \Bin~input , Bin~input, exp4, 1
+instance = comp, \Diff~0 , Diff~0, exp4, 1
+instance = comp, \Borrow~0 , Borrow~0, exp4, 1
